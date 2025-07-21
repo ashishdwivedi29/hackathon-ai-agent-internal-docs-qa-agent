@@ -40,13 +40,15 @@ coverage.xml
 *.cover
 .ipynb_checkpoints
 
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
 env/
-.env/
 
-# IDE specific files
+# Environment files
+.env
+
+# IDE specific
 .vscode/
 .idea/
 *.sublime-project
@@ -58,7 +60,5 @@ env/
 .Trashes
 Thumbs.db
 
-# My stuff
-.env # Crucial: Don't commit your API keys!
-# Don't commit generated FAISS index, it can be large and rebuilt
+# Project-specific
 secrets.toml
