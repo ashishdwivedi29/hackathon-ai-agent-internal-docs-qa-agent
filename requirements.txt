@@ -1,0 +1,16 @@
+streamlit
+langchain
+google-generativeai
+pypdf
+docx2txt
+faiss-cpu
+python-dotenv
+langchain-community # New: Essential for PyPDFLoader, Docx2txtLoader etc.
+langchain-core # New: Essential for AIMessage, HumanMessage etc.
+langchain-google-genai
+streamlit-authenticator 
+PyYAML
+SpeechRecognition # Added for voice input
+gTTS            # Added for voice output
+pydub           # Added for audio processing
+PyAudio         # Added for microphone input
